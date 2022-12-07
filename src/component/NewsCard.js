@@ -1,9 +1,7 @@
-import { Box, Card, CardActions, CardContent, CardHeader, Link, Stack, Typography } from '@mui/material'
-import React, { useContext } from 'react'
-import { AppData } from '../context'
+import { Box, Card, CardContent, Link, Typography } from '@mui/material'
+import React from 'react'
 
 const NewsCard = (props) => {
-    const data = useContext(AppData)
   return (
     <Card elevation={4} sx={{height: '200px', display: 'flex', flexDirection : 'column' ,  justifyContent: 'space-between' , padding: '8px'}} >
         <CardContent >

@@ -1,7 +1,9 @@
 import { Box, Stack, TextField, Typography } from '@mui/material'
-import React from 'react'
+import React, { useContext } from 'react'
+import { AppData } from '../context'
 
 const SearchSection = () => {
+  const {handleChange } = useContext(AppData)
   return (
     <Stack 
     spacing={1}
@@ -18,9 +20,9 @@ const SearchSection = () => {
             <TextField 
             label='Search for news' 
             variant='outlined'
-            type='text'
             size='medium'
             fullWidth
+            onChange={(event)=>handleChange(event, event.target.value)}
             />
         </Box>
     </Stack>

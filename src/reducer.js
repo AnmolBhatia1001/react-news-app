@@ -4,7 +4,11 @@ const reducerFn = (state, action)=>{
             return {
                 ...state,
                 hits: action.payload.hits,
-                query: action.payload.query
+            };
+        case "UPDATE_SEARCH":
+            return{
+                ...state,
+                query: action.payload
             }
     }
     return state
