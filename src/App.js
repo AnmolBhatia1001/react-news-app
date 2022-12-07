@@ -1,8 +1,8 @@
 import React from 'react'
-import './App.css'
 import SearchSection from './component/SearchSection'
 import NewsSections from './component/NewsSections'
 import PaginationComponent from './component/PaginationComponent'
+import './App.css'
 
 const App = () => {
     return (

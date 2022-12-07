@@ -12,7 +12,7 @@ const SearchSection = () => {
         marginY : '1em',
         alignItems: 'center'
     }} >
-        <Typography  sx={{typography: { xs: 'h3' , sm: 'h2'}  , textAlign : 'center'}} gutterBottom>
+        <Typography className='primary-font' sx={{typography: { xs: 'h3' , sm: 'h2'}  , textAlign : 'center'}} gutterBottom>
             Hacker News
         </Typography>
 

@@ -5,7 +5,7 @@ const NewsCard = (props) => {
   return (
     <Card  elevation={4} 
     sx={{
-        height: '200px', 
+        height: '220px', 
         display: 'flex', 
         flexDirection : 'column' ,  
         justifyContent: 'space-between' , 
@@ -18,21 +18,21 @@ const NewsCard = (props) => {
             backgroundImage: 'linear-gradient(45deg, #FFFFFF, #2980B9)',
             backgroundPosition : 'right',}}} >
         <CardContent >
-            <Typography sx={{typography: { xs: 'h6' , sm: 'h5'} }} component='div' gutterBottom>
+            <Typography className='common-font' sx={{typography: { xs: 'h6' , sm: 'h5'} }} component='div' gutterBottom>
                 {props.title}
             </Typography>
 
-            <Typography variant='body2' component='div' >
+            <Typography className='common-font' variant='body2' component='div' >
                 By {props.author}
             </Typography>
         </CardContent>
         
         <Box direction='row' sx={{display : 'flex', justifyContent: 'space-between', alignItem: 'center', paddingX: '16px'}}>
-            <Link href={props.url} target='_blank' underline='hover' color='primary.main'>
+            <Link className='common-font' href={props.url} target='_blank' underline='hover' color='primary.main'>
                 Read More
             </Link>
             
-            <Typography variant='body1' component='div' gutterBottom>
+            <Typography className='common-font' variant='body1' component='div' gutterBottom>
                 {props.date}
             </Typography>
         </Box>
