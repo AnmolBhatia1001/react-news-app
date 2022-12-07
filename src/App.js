@@ -1,11 +1,13 @@
-import { Stack } from '@mui/material'
 import React from 'react'
 import './App.css'
+import SearchSection from './component/SearchSection'
+import NewsSections from './component/NewsSections'
 
 const App = () => {
   return (
     <div id='App'>
-        Test
+        <SearchSection/>
+        <NewsSections/>
     </div>
   )
 }
