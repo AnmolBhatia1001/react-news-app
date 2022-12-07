@@ -3,7 +3,7 @@ import reducerFn from "./reducer";
 
 const AppData = createContext()
 
-const API = 'http://hn.algolia.com/api/v1/search?query=';
+const API = 'http://hn.algolia.com/api/v1/search?';
 
 const initialState= {
     hits: [],
@@ -33,9 +33,9 @@ const AppProvider = ({children})=>{
     }
 
     useEffect(()=>{
-        fetchAPIData(`${API}${state.query}`)
+        fetchAPIData(`${API}query=${state.query}`)
     }, [state.query])   
-    
+
     return (
         <AppData.Provider value={{ ...state,handleChange }}>
             {children}
