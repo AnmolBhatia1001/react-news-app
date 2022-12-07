@@ -9,6 +9,8 @@ const initialState= {
     isLoading : true,
     hits: [],
     query: '',
+    page: 0,
+    nbPages: 0
 }
 
 const AppProvider = ({children})=>{
@@ -22,6 +24,9 @@ const AppProvider = ({children})=>{
                 type: 'GET_DATA_FROM_API',
                 payload : {
                     hits: data.hits,
+                    page: data.page,
+                    nbPages: data.nbPages,
+
                 }
             });
             state.isLoading = false ;
@@ -34,12 +39,16 @@ const AppProvider = ({children})=>{
         dispatch({type: 'UPDATE_SEARCH', payload:  newValue})
     }
 
+    const handlePageChange = (event , newValue)=>{
+        dispatch({type: 'UPDATE_PAGE', payload:  newValue})
+    }
+
     useEffect(()=>{
-        fetchAPIData(`${API}query=${state.query}`)
-    }, [state.query])   
+        fetchAPIData(`${API}query=${state.query}&page=${state.page}`)
+    }, [state.query, state.page])   
 
     return (
-        <AppData.Provider value={{ ...state,handleChange }}>
+        <AppData.Provider value={{ ...state,handleChange, handlePageChange }}>
             {children}
         </AppData.Provider>
     )
