@@ -1,70 +1,75 @@
-# Getting Started with Create React App
+<!-- # Hey Welcome 👋
+### Hi, I'm Anmol Singh Bhatia, a Passionate Frontend Web Developer .
+</br> -->
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Hacker Search
+[![Technologies](https://img.shields.io/badge/Technologies%20-HTML%2FCSS%2FJS%2FReact%2FMUI-brightgreen)](http://www.gnu.org/licenses/agpl-3.0) [![Project](https://img.shields.io/badge/API-Project-red)](http://www.gnu.org/licenses/agpl-3.0) [![Device](https://img.shields.io/badge/Multi%20Device%20-Responsive-brightgreen)](http://www.gnu.org/licenses/agpl-3.0) 
 
-## Available Scripts
+</br>
 
-In the project directory, you can run:
+## Preview
+<br/> 
 
-### `npm start`
+![Mock-Up](https://drive.google.com/uc?export=view&id=1C2wFyBddPCd-yMWEAFUIQYDCzzFxc6Wc)
+<br/> 
+<br/> 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+## Live Demo 👇
+[Live Link](https://asb-react-news-app.vercel.app/)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<br/>
 
-### `npm run build`
+## Features
+- Fully Responsive
+- Simple & Clean UI
+- Pagination
+- Dynamic Search Box
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<br/> 
+<br/> 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 💻 Technologies Used:
+![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white) ![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white) 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E) ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+![MUI](https://img.shields.io/badge/Material--UI-0081CB?style=for-the-badge&logo=material-ui&logoColor=white) ![MarkDown](https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+</br>
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+<!-- ## Demo -->
 
-## Learn More
+## Time Taken
+It took me about 10 Hours to complete this project.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<br/> 
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Feedback
 
-### Code Splitting
+If you have any feedback, please reach me at anmolsinghbhatia1001@gmail.com
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+<br/> 
 
-### Analyzing the Bundle Size
+<!-- Social Links -->
+[![LinkedIn][linkedin-shield]][linkedin-url]
+[![Twitter][twitter-shield]][twitter-url]
+[![Instagram][instagram-shield]][instagram-url]
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
+<!-- Instagram -->
+[instagram-shield]: https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=Instagram&logoColor=white
+[instagram-url]: https://www.instagram.com/anmolbhatia1001
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+<!-- Twitter -->
+[twitter-shield]: https://img.shields.io/badge/Twitter-%231DA1F2.svg?style=for-the-badge&logo=Twitter&logoColor=white
+[twitter-url]: https://twitter.com/AnmolBhatia1001
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<!-- Linkedin -->
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=0B5FBB
+[linkedin-url]: https://www.linkedin.com/in/anmolbhatia1001/
