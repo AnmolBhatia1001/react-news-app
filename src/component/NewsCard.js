@@ -1,12 +1,14 @@
 import { Box, Card, CardActions, CardContent, CardHeader, Link, Stack, Typography } from '@mui/material'
-import React from 'react'
+import React, { useContext } from 'react'
+import { AppData } from '../context'
 
 const NewsCard = () => {
+    const data = useContext(AppData)
   return (
     <Card elevation={4} sx={{padding: '8px'}} >
         <CardContent >
             <Typography sx={{typography: { xs: 'h6' , sm: 'h5'} }} component='div' gutterBottom>
-                Relicensing React, Jest, Flow, and Immutable.js
+                {data}
             </Typography>
 
             <Typography variant='body2' component='div' >

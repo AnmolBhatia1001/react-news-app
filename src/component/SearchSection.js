@@ -5,15 +5,16 @@ const SearchSection = () => {
   return (
     <Stack 
     spacing={1}
+    p={2}
     sx={{
         marginY : '1em',
         alignItems: 'center'
     }} >
-        <Typography variant='h2' gutterBottom>
+        <Typography  sx={{typography: { xs: 'h3' , sm: 'h2'}  , textAlign : 'center'}} gutterBottom>
             Hacker News
         </Typography>
 
-        <Box width="500px">
+        <Box sx={{ width: {xs: '100%' , sm: '500px'}}}>
             <TextField 
             label='Search for news' 
             variant='outlined'
