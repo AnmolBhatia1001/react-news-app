@@ -6,8 +6,9 @@ const AppData = createContext()
 const API = 'http://hn.algolia.com/api/v1/search?';
 
 const initialState= {
+    isLoading : true,
     hits: [],
-    query: ''
+    query: '',
 }
 
 const AppProvider = ({children})=>{
@@ -22,7 +23,8 @@ const AppProvider = ({children})=>{
                 payload : {
                     hits: data.hits,
                 }
-            })
+            });
+            state.isLoading = false ;
         } catch (error) {
             console.log(error)
         }
